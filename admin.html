@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حساب المسؤول</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>مرحباً، مسؤول</h2>
+        <form id="adminForm">
+            <label for="targetAccountNumber">أدخل رقم الحساب المراد تعديل الرصيد له:</label>
+            <input type="text" id="targetAccountNumber" name="targetAccountNumber" required>
+            <label for="amount">المبلغ:</label>
+            <input type="number" id="amount" name="amount" required>
+            <button type="submit">إضافة/خصم الرصيد</button>
+        </form>
+        <div id="adminMessage"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
